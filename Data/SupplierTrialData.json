@@ -1,0 +1,42 @@
+[
+  [
+    {
+      "CompanyName": "TSS",
+      "UserName": "Beverly",
+      "Password": "password",
+      "Email": "beverlyclayton@fortean.com",
+      "IdNumber": "+1 (887) 462-2557",
+      "Phone": "+1 (887) 462-2557",
+      "CommercialActivities": "TSHIRT",
+      "Address": "irbid",
+      "City": "Irbid",
+      "Photos":[{
+        "PhotoId":"1",
+          "Url":"",
+          "PublicId":"",
+           "Description":"",
+             "DateAdded":""
+      }],
+      "Product":[{
+        "ProductId": null,
+        "ProductNumber": null,
+        "SKU": null,
+        "ProductNameEnglish": null,
+        "ProductNameArabic": "m@yahoo.com",
+        "ProductDescriptionEnglish": null,
+        "ProductDescriptionArabic": null,
+        "PriceAfterTax": null,
+        "Quantity": "0001-01-01T00:00:00",
+        "ActualCost":""
+      }]
+      
+    
+
+
+     
+    }
+  ]
+]
+
+
+
