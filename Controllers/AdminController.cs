@@ -22,9 +22,9 @@ namespace CP.API.Controllers
             _context = context;
 
         }
+      
 
-
-
+        //hhee
 
         [Authorize(Policy = "RequireAdminRole")]
         [HttpGet("SupplierWithRoles")]

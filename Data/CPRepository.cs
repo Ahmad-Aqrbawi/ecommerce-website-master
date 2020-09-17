@@ -134,7 +134,7 @@ namespace CP.API.Data
             var suppliers = _context.Users.Include(p => p.Products).Include(o=>o.PhotoForSuppliers).AsQueryable();
             suppliers = suppliers.Where(f => (f.UserName == supplierParams.FacilityOwnerName ||
                 f.Phone == supplierParams.Phone ||
-                                           f.IdNumber == supplierParams.IdNumber));
+                                           f.IdNumber == supplierParams.IdNumber)); 
 
 
             return await PagedList<Supplier>.CreateAsync(suppliers, supplierParams.PageNumber, supplierParams.PageSize);
